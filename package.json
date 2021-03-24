@@ -2,7 +2,7 @@
   "name": "react-l2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zacper.github.io/CIS453L_Project/",
+  "homepage": "https://zacper.github.io/CIS453L_Project/.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
