@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
  
 const FishDiv = styled.div`
-background-color: #f2e8ae;
+background-color: #c4deba;
 padding: 40px;
 `;
 class Fish extends Component {

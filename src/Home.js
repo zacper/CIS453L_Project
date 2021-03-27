@@ -5,11 +5,12 @@ import styled from "styled-components";
 
 const HomeTitle = styled.h2`
  font-size: 2em;
+ font-family: Cursive, Times, sans-serif;
  
 `;
 
 const HomeDiv = styled.div`
-background-color: #f2e8ae;
+background-color: #c4deba;
 padding: 40px;
 `;
 

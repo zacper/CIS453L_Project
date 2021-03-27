@@ -17,22 +17,33 @@ const MainTitle = styled.h1`
 padding: 20px;
 background-color: #333333;
 color: #f7f4e1;
+font-family: Cursive, Times, sans-serif;
+font-size: 2em;
+
 `;
+
+const MainLi = styled.li`
+  font-family: Cursive, Times, serif;
+`;
+
+
 
   class Main extends React.Component {
     render() {
       return (
         <HashRouter>
           <div>
+            
             <MainTitle>Types of Animals</MainTitle>
             <ul className="header">
-              <li><NavLink exact to="/">Home</NavLink></li>
-              <li><NavLink to="/mammals">Mammals</NavLink></li>
-              <li><NavLink to="/birds">Birds</NavLink></li>
-              <li><NavLink to="/fish">Fish</NavLink></li>
-              <li><NavLink to="/reptiles">Reptiles</NavLink></li>
-              <li><NavLink to="/amphibians">Amphibians</NavLink></li>
+              <MainLi><NavLink exact to="/">Home</NavLink></MainLi>
+              <MainLi><NavLink to="/mammals">Mammals</NavLink></MainLi>
+              <MainLi><NavLink to="/birds">Birds</NavLink></MainLi>
+              <MainLi><NavLink to="/fish">Fish</NavLink></MainLi>
+              <MainLi><NavLink to="/reptiles">Reptiles</NavLink></MainLi>
+              <MainLi><NavLink to="/amphibians">Amphibians</NavLink></MainLi>
             </ul>
+            
             <div className="content">
               <Route exact path="/" component={Home}/>
               <Route path="/mammals" component={Mammals}/>

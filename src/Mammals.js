@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
  
 const MammalDiv = styled.div`
-background-color: #f2e8ae;
+background-color: #c4deba;
 padding: 40px;
 `;
 class Mammals extends Component {

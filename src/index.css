@@ -1,13 +1,17 @@
 body {
-  background-color: #32a852;
+  background-color: #639a67;
   padding: 20px;
   margin: 0;
 }
 
 
-h1, h2, p, ul, li {
-  font-family: sans-serif;
+h1, p, ul, li {
+  font-family: roboto, sans-serif;
   
+}
+
+h2, nav {
+  font-family: Cursive, Times, serif;
 }
 ul.header li {
   display: inline;
@@ -15,7 +19,7 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #b5a85c;
+  background-color: #8b725b;
   padding: 0;
 }
 ul.header li a {
@@ -35,5 +39,5 @@ ul.header li a {
 }
 
 .active {
-  background-color: #0099FF;
+  background-color: #9a7f65;
 }
