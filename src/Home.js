@@ -22,7 +22,7 @@ class Home extends Component {
           Home
         </HomeTitle>
         
-        <p>This is a website that teaches about the types of animals.
+        <p>This is a website that teaches about the types of animals, specifically vertebrates.
         </p>
  
       </HomeDiv>
