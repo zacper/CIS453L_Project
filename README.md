@@ -22,12 +22,12 @@ app's directory, and then the "npm i react-router-dom --save" command.
 In order to run the project, I used the "npm start" command. From there, you can navigate to http://localhost:3000/
 in your browser to see the webpage. Additional info may be found in the default README info found below
 
-##References
+## References
 kirupa. (n.d.) Creating a Single-Page App in React using React Route
 https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
 
 
-#Default README info
+# Default README info
 
 Left in for reference.
 
