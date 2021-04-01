@@ -1,3 +1,37 @@
+# Project Explanation
+This interface demonstrates a webpage that could be used for an educational website. This site is
+focused towards teaching children about some different types of animals. It utilizes a single page
+navigation in order to quickly and efficiently change between the different content in the
+nav bar.
+
+## Cosmetics
+After conducting a self-review, I decided to alter the colors and typeface. I wanted to convey
+colors and typeface that were fun to cater towards children and yet also suggest a nature theme 
+to fit the animal theme. The typeface also had to be legible as the information is the main attraction.
+I was severely limited by the fonts that would actually show up when running the project, but in the
+end, I found some basic fonts that were satisfactory.
+
+## How to recreate this project
+To create the app, I followed the tutorial from 
+https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
+called "Creating a Single-Page App in React using React Router" (kirupa, n.d.)
+With node.js and Microsoft Visual Studio Code installed, I first created this project using the 
+"create-react-app <name>" command, ignoring the quotes. I then used the cd command to change to the 
+app's directory, and then the "npm i react-router-dom --save" command.
+
+In order to run the project, I used the "npm start" command. From there, you can navigate to http://localhost:3000/
+in your browser to see the webpage. Additional info may be found in the default README info found below
+
+##References
+kirupa. (n.d.) Creating a Single-Page App in React using React Route
+https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
+
+
+#Default README info
+
+Left in for reference.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
